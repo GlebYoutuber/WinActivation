@@ -18,7 +18,7 @@ namespace WinActivation
             Thread.Sleep(5000);
             ProcessStartInfo win1 = new ProcessStartInfo();
             win1.FileName = "cmd.exe";
-            win1.Arguments = "/c slmgr /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T"; //you can enter any key, but it will no longer be a pro version, but some other version
+            win1.Arguments = "/c slmgr /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T"; //you can change any key, but it will no longer be a pro version, but some other version
             win1.Verb = "runas";
             win1.WindowStyle = ProcessWindowStyle.Hidden;
             Process.Start(win1);
